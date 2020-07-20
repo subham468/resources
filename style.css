@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+head,
+body {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 95vh;
+    background-color: #2DB6ED;
+}
+
+nav {
+    background-color: #2DB6ED;
+}
+
+.link {
+    color: antiquewhite;
+    font-family: "Lato", "Tahoma", Arial, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 10px;
+    background-color: rgb(255, 149, 31);
+    text-align: center;
+}
+
+.learning {
+    padding: 5px;
+    font-weight: 100;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.learning:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.headline {
+    color: white;
+    font-size: 44px;
+    line-height: 1.3;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Lato,
+        monospace,
+        Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    ;
+    margin-top: 0px;
+}
+
+.headline_bottom {
+    line-height: 1.5;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: Lato, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    /* background-color: gainsboro */
+}
+
+.latest_Video {
+    border-radius: 26px;
+    box-shadow: 5px 5px 11px rgba(0, 0, 0, .15),
+        -5px -5px 11px rgba(255, 255, 255, 0.685);
+}
+
+/* navigation link */
+.nav_link {
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.nav_link:hover {
+    color: #2DB6ED;
+    transform: scale(1.20);
+}
+
+.nav_home {
+    margin-top: -15px;
+    transform: scale(1.4);
+    transition: transform 0.25s ease-out;
+}
+
+.nav_home:hover {
+    color: #2DB6ED;
+    transform: scale(1.6);
+}
+
+/*Headings- content*/
+
+.content_headline {
+    color: #ff1414;
+    font-size: 26px;
+    margin-top: 65px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+/* neumorphic design */
+
+.neumorphic {
+    size: 250px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffffff, #dddddd);
+    box-shadow: 20px 20px 19px #d0d0d0,
+        -20px -20px 19px #ffffff;
+}
+
+.card_link {
+    font-size: 24px;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.card_link:hover {
+    transform: scale(1.20);
+}
+
+.text {
+    color: #2DB6ED;
+}
+
+.text:hover {
+    color: #ed2dc3;
+}
+
+/* For More queries */
+
+#mail,
+#phone {
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+#mail:hover,
+#phone:hover {
+    transform: scale(1.20);
+}
