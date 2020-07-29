@@ -154,3 +154,12 @@ section {
 #phone:hover {
     transform: scale(1.20);
 }
+
+.ui-dialog-titlebar {
+    background: #2DB6ED;
+    border: none;
+}
+
+.ui-dialog-titlebar-close {
+    border-radius: 20px;
+}

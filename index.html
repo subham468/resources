@@ -1229,7 +1229,7 @@
  				"https://www.googleapis.com/youtube/v3/channels", {
  					part: 'contentDetails',
  					id: channelId,
- 					key: 'AIzaSyAtukxB87BaiysVOFiUDJx6Ec9UxLCi6TA'
+ 					key: 'AIzaSyA_oevyxtpgnQw_RQT-OSfV4oLsFCQ1uAM'
  				},
  				function (data) {
  					$.each(data.items, function (i, item) {
@@ -1246,7 +1246,7 @@
  						part: 'snippet',
  						playlistId: pid,
  						maxResults: maxNumber,
- 						key: 'AIzaSyAtukxB87BaiysVOFiUDJx6Ec9UxLCi6TA'
+ 						key: 'AIzaSyA_oevyxtpgnQw_RQT-OSfV4oLsFCQ1uAM'
  					},
  					function (data) {
  						var output;
@@ -1284,7 +1284,9 @@
  						}, 4000);
  					}
  				});
- 				// js code to show one time pop up
+ 				// TODO: remove title bar in jquery
+ 				// $(".ui-dialog-titlebar").hide()
+ 				//TODO: js code to show one time pop up
  				sessionStorage.setItem('#dialog', 'true');
  			}
  		});
